@@ -110,7 +110,7 @@ with col1:
                     st.warning(f"No workflow found for {item}.")
                 else:
                     resp = retry_failed_workflow(row['ITEM_TYPE'], row['ITEM_KEY'], user="streamlit_user")
-                    if resp['status']=="success':
+                    if resp['status'] == "success":
                         st.success(resp['message'])
                     else:
                         st.error(resp['message'])
