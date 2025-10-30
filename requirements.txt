@@ -1,0 +1,10 @@
+streamlit
+requests
+openai
+urllib3
+langchain
+chromadb
+sentence-transformers
+unstructured
+tiktoken
+transformers
